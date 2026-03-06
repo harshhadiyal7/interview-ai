@@ -9,8 +9,6 @@ const authRouter = Router();
  */
 authRouter.post('/register', authController.registerUserController)
 
-
-
 /**
  * @route POST /api/auth/login
  * @desc Login a user with email and password
