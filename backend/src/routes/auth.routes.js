@@ -21,6 +21,6 @@ authRouter.post('/login', authController.loginUserController)
  * @desc Logout a user by blacklisting the token
  * @access Public
  */
-authRouter.post('/logout', authController.logoutUserController) 
+authRouter.get('/logout', authController.logoutUserController) 
 
 module.exports = authRouter;
