@@ -16,7 +16,7 @@ const Login = () => {
         navigate("/")
     }
     if(loading) {
-        return <main><h1>Login..........</h1></main>
+        return <main><h1>Login......</h1></main>
     }
     return (
         <main>
